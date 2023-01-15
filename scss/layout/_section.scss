@@ -1,0 +1,41 @@
+.section {
+  // background-color: var(--color-highlight);
+  padding-bottom: 94px;
+  padding-top: 94px;
+
+  &__title {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  color: var(--color-primary);
+  
+  &--hidden {
+    @include visually-hidden;
+  }
+}
+
+&--team {
+  background-color: var(--background-secondary);
+  padding-top: 94px;
+}
+
+&--footer {
+  background: var(--background-accent);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+&--activities {
+  padding-top: 0px;
+
+       @media (max-width: $bp-desktop) {
+display: none;
+    }
+
+}
+}
+

@@ -1,0 +1,51 @@
+.address {
+
+        font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    &__list {
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+&__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+&__link {
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--map:hover,
+&:hover,
+&--map:focus,
+&:focus,
+&--map:active,
+&:active {
+  color: var(--color-accent);
+}
+
+&--map {
+  color: var(--color-highlight);
+}
+}
+}
+
+
+
+
+
+
+
+

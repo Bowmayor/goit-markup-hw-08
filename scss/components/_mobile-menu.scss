@@ -13,9 +13,11 @@
 
     padding: 48px 40px;
 
-&__nav {
-margin-bottom: 306px;
-}
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     &__close {
         top: 10px;
         right: 15px;

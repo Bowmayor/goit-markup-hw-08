@@ -37,5 +37,14 @@ display: none;
     }
 
 }
+
+ @media (max-width: $bp-desktop) { 
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+
+//  @media (max-width: $bp-desktop){
+//     max-width: 768px;
+//  }
 }
 

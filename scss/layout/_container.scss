@@ -5,5 +5,11 @@
     margin-right: auto;
     /* outline: 2px solid tomato; */
 
+ @media (max-width: $bp-tablet) { 
+    max-width: 480px;
+ }
 
+ @media (min-width: $bp-tablet) and (max-width: $bp-desktop){
+    max-width: 768px;
+ }
 }

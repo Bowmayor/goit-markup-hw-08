@@ -12,6 +12,11 @@
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2ddpx) {.box {background-image: url(../images/herobg@2x.jpg);}}
 
+     @media (max-width: $bp-desktop) { 
+    padding-top: 118px;
+    padding-bottom: 118px;
+ }
+
     &__title {
     margin-top: 0;
     margin-bottom: 30px;
@@ -25,6 +30,10 @@
     text-transform: uppercase;
 
     color: var(--color-highlight);
+
+     @media (max-width: $bp-tablet) { 
+    font-size: 26px;
+     }
 }
 
 &__button {

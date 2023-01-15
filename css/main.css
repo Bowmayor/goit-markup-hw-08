@@ -1305,7 +1305,7 @@ textarea {
 .header__list {
   display: none;
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .header__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1330,7 +1330,7 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .header__burger {
     display: none;
   }
@@ -1338,7 +1338,7 @@ textarea {
 .header__burger:hover {
   fill: var(--color-accent);
 }
-@media (max-width: 479px) {
+@media (max-width: 767px) {
   .header__contacts {
     display: none;
   }

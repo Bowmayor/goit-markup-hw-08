@@ -2,13 +2,14 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 
     @media (max-width: $bp-mobile) {
       flex-direction: column;
     }
     margin-top: 0;
 
-    @media (max-width: $bp-desktop) {
+    @media (min-width: $bp-mobile) and (max-width: $bp-desktop) {
       justify-content: center;
     }
   }
@@ -32,27 +33,27 @@
 
 
 
-    @media (min-width: $bp-tablet) and (max-width: $bp-desktop) {
-      margin-right: 30px;
-      margin-bottom: 30px;
+      // @media (min-width: $bp-tablet) and (max-width: $bp-desktop) {
+      //   margin-right: 30px;
+      //   margin-bottom: 30px;
 
-      &:nth-child(2n) {
-        margin-right: 0px;
-      }
+      //   &:nth-child(2n) {
+      //     margin-right: 0px;
+      //   }
 
-      &:nth-last-child(-n + 2) {
-        margin-bottom: 0px;
-      }
-    }
+      //   &:nth-last-child(-n + 2) {
+      //     margin-bottom: 0px;
+      //   }
+      // }
 
-    &:not(:last-child) {
-      margin-right: 30px;
+      // &:not(:last-child) {
+      //   margin-right: 30px;
 
-              @media (max-width: $bp-tablet) {
-      margin-right: 0;
-      margin-bottom: 30px;
-    }
-    }
+      //           @media (max-width: $bp-tablet) {
+      //   margin-right: 0;
+      //   margin-bottom: 30px;
+      // }
+      // }
 
 
   }

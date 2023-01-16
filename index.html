@@ -140,12 +140,18 @@
           <ul class="activities-list list">
             <li class="activities-list__item">
               <div class="activities-list__wrapper">
-                <img
-                  srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
-                  src="./images/img1.jpg"
-                  alt="Десктопні додатки"
-                  width="370"
-                />
+                <picture>
+                  <source
+                    srcset="./images/img1.webp 1x, ./images/img1@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+
+                  <img src="./images/img1.jpg" alt="Десктопні додатки" width="370px" />
+                </picture>
                 <div class="activities-list__overlay">
                   <p class="activities-list__caption">Десктопні додатки</p>
                 </div>
@@ -153,9 +159,18 @@
             </li>
             <li class="activities-list__item">
               <div class="activities-list__wrapper">
-                <img 
-                srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
-                src="./images/img2.jpg" alt="Мобільні додатки" width="370" />
+                <picture>
+                  <source
+                    srcset="./images/img2.webp 1x, ./images/img2@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+
+                  <img src="./images/img2.jpg" alt="Мобільні додатки" width="370px" />
+                </picture>
                 <div class="activities-list__overlay">
                   <p class="activities-list__caption">Мобільні додатки</p>
                 </div>
@@ -163,9 +178,21 @@
             </li>
             <li class="activities-list__item">
               <div class="activities-list__wrapper">
-                <img 
+                <picture>
+                  <source
+                    srcset="./images/img3.webp 1x, ./images/img3@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+
+                  <img src="./images/img3.jpg" alt="Дизайнерські рішення" width="370px" />
+                </picture>
+                <!-- <img 
                 srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
-                src="./images/img3.jpg" alt="Дизайнерські рішення" width="370" />
+                src="./images/img3.jpg" alt="Дизайнерські рішення" width="370" /> -->
                 <div class="activities-list__overlay">
                   <p class="activities-list__caption">Дизайнерські рішення</p>
                 </div>
@@ -181,14 +208,23 @@
           <div class="cards">
             <ul class="cards__list list">
               <li class="cards__item">
-                <img
+                <picture>
+                  <source
+                    srcset="./images/team1.webp 1x, ./images/team1@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/team1.jpg 1x, ./images/team1@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
 
-                  srcset="./images/team1.jpg 1x, ./images/team1@2x.jpg 2x"
-                  src="./images/team1.jpg"
-                  alt="Фото Ігора Дем'яненко"
-                  width="270"
-                  class="cards__image"
-                />
+                  <img
+                    src="./images/team1.jpg"
+                    alt="Фото Ігора Дем'яненко"
+                    width="270px"
+                    class="cards__image"
+                  />
+                </picture>
                 <div class="cards__content">
                   <h3 class="cards__title">Ігор Дем'яненко</h3>
                   <p class="cards__caption">Product Designer</p>
@@ -225,13 +261,23 @@
                 </div>
               </li>
               <li class="cards__item">
-                <img
-                  srcset="./images/team2.jpg 1x, ./images/team2@2x.jpg 2x"
-                  src="./images/team2.jpg"
-                  alt="Фото Ольги Рєпіної"
-                  width="270"
-                  class="cards__image"
-                />
+                <picture>
+                  <source
+                    srcset="./images/team2.webp 1x, ./images/team2@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/team2.jpg 1x, ./images/team2@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+
+                  <img
+                    src="./images/team2.jpg"
+                    alt="Фото Ольги Рєпіної"
+                    width="270px"
+                    class="cards__image"
+                  />
+                </picture>
                 <div class="cards__content">
                   <h3 class="cards__title">Ольга Рєпіна</h3>
                   <p class="cards__caption">Frontend Developer</p>
@@ -268,13 +314,23 @@
                 </div>
               </li>
               <li class="cards__item">
-                <img
-                  srcset="./images/team3.jpg 1x, ./images/team3@2x.jpg 2x"
-                  src="./images/team3.jpg"
-                  alt="Фото Миколи Тарасова"
-                  width="270"
-                  class="cards__image"
-                />
+                <picture>
+                  <source
+                    srcset="./images/team3.webp 1x, ./images/team3@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/team3.jpg 1x, ./images/team3@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+
+                  <img
+                    src="./images/team3.jpg"
+                    alt="Фото Миколи Тарасова"
+                    width="270px"
+                    class="cards__image"
+                  />
+                </picture>
                 <div class="cards__content">
                   <h3 class="cards__title">Микола Тарасов</h3>
                   <p class="cards__caption">Marketing</p>
@@ -311,13 +367,24 @@
                 </div>
               </li>
               <li class="cards__item">
-                <img
-                  srcset="./images/team4.jpg 1x, ./images/team4@2x.jpg 2x"
-                  src="./images/team4.jpg"
-                  alt="Фото Михайла Єрмакова"
-                  width="270"
-                  class="cards__image"
-                />
+                <picture  >
+                  <source
+                    srcset="./images/team4.webp 1x, ./images/team4@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/team4.jpg 1x, ./images/team4@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+
+                  <img
+                    src="./images/team4.jpg"
+                    alt="Фото Михайла Єрмакова"
+                    width="270px"
+                    
+                    class="cards__image"
+                  />
+                </picture>
                 <div class="cards__content">
                   <h3 class="cards__title">Михайло Єрмаков</h3>
                   <p class="cards__caption">UI Designer</p>
@@ -409,68 +476,66 @@
           <div class="footer__main">
             <div>
               <a href="/" class="logo logo--alt">
-              <span class="logo__accent">Web</span><span class="logo__highlight">Studio</span>
-            </a>
+                <span class="logo__accent">Web</span><span class="logo__highlight">Studio</span>
+              </a>
 
-            <address class="address">
-              <ul class="address__list list">
-                <li class="address__item">
-                  <a
-                    href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                    target="_blank"
-                    rel="noopener
+              <address class="address">
+                <ul class="address__list list">
+                  <li class="address__item">
+                    <a
+                      href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                      target="_blank"
+                      rel="noopener
                     noreferrer nofollow"
-                    class="address__link address__link--map"
-                    >м. Київ, пр-т Лесі Українки, 26</a
-                  >
-                </li>
-                <li class="address__item">
-                  <a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a>
-                </li>
-                <li class="address__item">
-                  <a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a>
-                </li>
-              </ul>
-            </address>
+                      class="address__link address__link--map"
+                      >м. Київ, пр-т Лесі Українки, 26</a
+                    >
+                  </li>
+                  <li class="address__item">
+                    <a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a>
+                  </li>
+                  <li class="address__item">
+                    <a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a>
+                  </li>
+                </ul>
+              </address>
             </div>
 
-                      <div class="socials">
-            <span class="socials-list__caption">приєднуйтесь</span>
+            <div class="socials">
+              <span class="socials-list__caption">приєднуйтесь</span>
 
-            <ul class="socials-list list">
-              <li class="socials-list__item">
-                <a href="#" class="socials-list__link socials-list__link--alt">
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-list__item">
-                <a href="#" class="socials-list__link socials-list__link--alt">
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-list__item">
-                <a href="#" class="socials-list__link socials-list__link--alt">
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-list__item">
-                <a href="#" class="socials-list__link socials-list__link--alt">
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+              <ul class="socials-list list">
+                <li class="socials-list__item">
+                  <a href="#" class="socials-list__link socials-list__link--alt">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials-list__item">
+                  <a href="#" class="socials-list__link socials-list__link--alt">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials-list__item">
+                  <a href="#" class="socials-list__link socials-list__link--alt">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials-list__item">
+                  <a href="#" class="socials-list__link socials-list__link--alt">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          </div>
-
-
 
           <form class="footer__form">
             <div class="footer__input">
@@ -507,30 +572,30 @@
           <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакти</a></li>
         </ul>
       </div>
-<div>
+      <div>
         <ul class="mobile-menu__contacts list">
-        <li class="mobile-menu__contact">
-          <a href="mailto:info@devstudio.com" class="mobile-menu__phone"> +38 096 111 11 11</a>
-        </li>
-        <li class="mobile-menu__contact">
-          <a href="mailto:info@devstudio.com" class="mobile-menu__email"> info@devstudio.com</a>
-        </li>
-      </ul>
-      <ul class="mobile-menu__socials list">
-        <li class="mobile-menu__social">
-          <a href="#" class="mobile-menu__profile">Instagram</a>
-        </li>
-        <li class="mobile-menu__social">
-          <a href="#" class="mobile-menu__profile">Twitter</a>
-        </li>
-        <li class="mobile-menu__social">
-          <a href="#" class="mobile-menu__profile">Facebook</a>
-        </li>
-        <li class="mobile-menu__social">
-          <a href="#" class="mobile-menu__profile">LinkedIn</a>
-        </li>
-      </ul>
-</div>
+          <li class="mobile-menu__contact">
+            <a href="mailto:info@devstudio.com" class="mobile-menu__phone"> +38 096 111 11 11</a>
+          </li>
+          <li class="mobile-menu__contact">
+            <a href="mailto:info@devstudio.com" class="mobile-menu__email"> info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu__socials list">
+          <li class="mobile-menu__social">
+            <a href="#" class="mobile-menu__profile">Instagram</a>
+          </li>
+          <li class="mobile-menu__social">
+            <a href="#" class="mobile-menu__profile">Twitter</a>
+          </li>
+          <li class="mobile-menu__social">
+            <a href="#" class="mobile-menu__profile">Facebook</a>
+          </li>
+          <li class="mobile-menu__social">
+            <a href="#" class="mobile-menu__profile">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="backdrop is-hidden" data-modal>

@@ -4,6 +4,11 @@
   line-height: 1.142;
   letter-spacing: 0.02em;
 
+    @media (min-width: $bp-mobile) and (max-width: $bp-desktop) {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+
   
     
   text-decoration: none;
@@ -29,6 +34,8 @@
     }
 
 }
+
+
 
 &__item:hover &__icon,
 &__item:focus &__icon {

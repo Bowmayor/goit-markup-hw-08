@@ -11,13 +11,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   @media (max-width: $bp-desktop) {
-    margin: 95px 15px;
-    max-height: 609px;
+    max-width: 450px;
   }
 
   @media (min-width: $bp-tablet) and (max-width: $bp-desktop) {
-        margin: 208px 159px;
-    max-height: 609px;
     max-width: 450px;
   }
 

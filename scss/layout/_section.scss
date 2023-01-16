@@ -16,6 +16,12 @@
   &--hidden {
     @include visually-hidden;
   }
+
+  @media (max-width: $bp-desktop) {
+    font-size: 28px;
+    line-height: 1.178;
+    margin-bottom: 30px;
+  }
 }
 
 &--team {

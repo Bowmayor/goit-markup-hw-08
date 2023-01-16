@@ -18,6 +18,12 @@
 
 
   &__title {
+
+        @media (max-width: $bp-desktop) {
+      font-size: 26px;
+      line-height: 1.615;
+    }
+    
     margin-top: 0;
     margin-bottom: 30px;
     font-style: normal;
@@ -30,11 +36,6 @@
     text-transform: uppercase;
 
     color: var(--color-highlight);
-
-    @media (max-width: $bp-desktop) {
-      font-size: 26px;
-      line-height: 1.615;
-    }
   }
 
   &__button {
